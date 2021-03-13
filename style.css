@@ -395,3 +395,9 @@ footer {
     font-weight: 500;
   }
 }
+
+
+/*作品ページのCSS*/
+.sakuhin{
+   background-color: rgba(0, 245, 212, 1);
+}
