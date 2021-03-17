@@ -229,31 +229,39 @@ footer {
   .activity {
     max-width: 100%;
   }
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  .wrap {
+    overflow: hidden;
+  }
 
   header {
     position: static;
     width: 100%;
-    margin: 0;
-    padding: 0;
+    height: 50px;
+    padding: 0 15px;
     /* justify-content: space-between; */
-    margin: 0 auto;
+    /* margin: 0 auto; */
   }
 
   /* 横幅あわない... */
 
   .h-title {
     font-size: 25px;
-    padding-left: 15px;
+    padding-left: 10px;
   }
 
   .h-menu {
     font-size: 15px;
   }
   ul {
-    padding-right: 15px;
+    /* padding-right: 15px; */
   }
   nav ul li {
-    padding-right: 30px;
+    padding-right: 35px;
   }
 
   .top-image {
@@ -262,9 +270,7 @@ footer {
     margin-right: 25px;
     /* margin: 20px; */
   }
-  .top-container {
-    margin-left: 10p;
-  }
+
   /* .h-title {
     padding-left: 90px;
     font-size: 25px;
@@ -278,11 +284,6 @@ footer {
     text-decoration: underline solid 3px rgba(88, 140, 189, 0.466);
   } */
 
-  .title,
-  .title2,
-  .activity-title {
-    font-size: 24px;
-  }
   .text1,
   .text-web,
   .text-art,
@@ -295,15 +296,15 @@ footer {
   }
 
   .about {
-    padding-top: 50px;
+    padding: 0;
     height: 300px;
   }
 
   .back {
     font-size: 100px;
     transform: rotate(0deg);
-    top: 250px;
-    left: 200px;
+    top: 200px;
+    left: 90px;
   }
   .study {
     margin: 0px;
@@ -312,19 +313,16 @@ footer {
     height: 600px;
   }
 
-  .back2,
-  .back3 {
-    font-size: 90px;
-  }
-
   .back2 {
+    font-size: 80px;
     top: 200px;
-    left: 90px;
+    left: 15px;
   }
 
   .back3 {
+    font-size: 75px;
     top: 480px;
-    right: 0;
+    right: 15px;
     /* left: 50px; */
   }
 
@@ -371,6 +369,11 @@ footer {
     padding-bottom: 30px;
   }
 
+  .title2,
+  .activity-title {
+    font-size: 20px;
+  }
+
   .container {
     width: 100%;
   }
@@ -381,23 +384,29 @@ footer {
   }
 
   .title {
+    font-size: 24px;
     padding-top: 50px;
     margin-bottom: 25px;
   }
 
   .text2 {
+    text-align: justify;
     margin: 0 10px;
-    margin-bottom: 35px;
+    margin-bottom: 50px;
   }
 
-  .advertise {
-    font-size: 25px;
+  .advertise > p {
+    margin: 0 10px;
+    font-size: 18px;
     font-weight: 500;
+  }
+  footer {
+    text-align: center;
+    font-size: 20px;
   }
 }
 
-
 /*作品ページのCSS*/
-.sakuhin{
-   background-color: rgba(0, 245, 212, 1);
+.sakuhin {
+  background-color: rgba(0, 245, 212, 1);
 }
