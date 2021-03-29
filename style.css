@@ -569,3 +569,15 @@ img[alt$="Twitter"] {
 .sakuhin {
     background-color: rgba(0, 245, 212, 1);
 }
+
+.block img{
+  width: 200px;
+  height: 110px;
+  margin-left: 130px;
+  margin-top: 20px;
+}
+
+.border{
+  border-left: solid 1px ;
+  margin-left: 15px;
+}
