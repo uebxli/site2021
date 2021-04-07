@@ -503,6 +503,7 @@ footer {
     font-weight: bold;
 }
 
+
 .member1 {
     width: 650px;
     height: 130px;
@@ -547,7 +548,7 @@ footer {
     margin-top: 100px;
 }
 
-.nameandTwitter {
+.group-profile {
     padding: 10px 5px;
     border-right: solid 2px gray;
     width: 160px;
@@ -565,9 +566,9 @@ footer {
 
 .message{
     width:280px;
-    height: 60px;
+    height: 75px;
     float: left;
-    padding:20px;
+    padding:10px 20px;
     padding-left:25px;
 
     font-size: 20px;
@@ -587,9 +588,19 @@ img[alt$="Twitter"] {
     width: 40px;
     height: 40px;
     float: left;
-    margin-top: 10px;
-    margin-left: 55px;
+    margin-top: 15px;
+    margin-left: 30px;
 }
+
+img[alt$="Github"] {
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    float: left;
+    margin-top: 17px;
+    margin-left: 5px;
+}
+
 
 .member2 {
     width: 670px;
@@ -683,6 +694,157 @@ img[alt$="Twitter"] {
     align-items: center;
     justify-content: center;
     background-color: rgba(0, 187, 249, 1);
+}
+
+@media (max-width: 720px) {
+    .member1 {
+    width: 450px;
+    height: 130px;
+    padding: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+    margin: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+
+.group-profile {
+    border-right: solid 2px gray;
+    width: 120px;
+    height: 80px;
+    float: left;
+    padding:20px 10px 10px 0px;
+    
+}
+
+.member1-name {
+    text-align: center;
+    width: 120px;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+
+}
+
+.message{
+    width:170px;
+    height: 100px;
+    padding:5px 10px 10px 10px;
+    float: left;
+    font-size:18px;
+}
+
+.member1 img[alt$="アイコン"] {
+    border-radius: 50%;
+    margin-top: 10px;
+    width: 85px;
+    height: 85px;
+    margin:10px 8px 0px 5px;
+    float: left;
+    
+}
+
+img[alt$="Twitter"] {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin-top: 15px;
+    margin-left: 18px;
+}
+
+img[alt$="Github"] {
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    float: left;
+    margin-top: 17px;
+    margin-left: 5px;
+}
+    
+.member2 {
+    width: 350px;
+    height: 330px;
+    margin: auto;
+}
+
+.member2-left {
+    width: 350px;
+    height: 145px;
+    background-color: white;
+    border-radius: 10px;
+    margin: auto;
+    margin-bottom: 25px;
+    
+}
+
+.member2-right {
+    width: 350px;
+    height: 145px;
+    background-color: white;
+    border-radius: 10px;
+    margin:auto;
+    margin-bottom:25px;
+}
+
+.circle-upperleft2 {
+    clear: both;
+    float: left;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #a9a9a9;
+    margin: 10px;
+}
+
+.circle-upperright2 {
+    width: 15px;
+    height: 15px;
+    float: right;
+    border-radius: 50%;
+    background-color: #a9a9a9;
+    margin: 10px;
+}
+
+.circle-lowerleft2 {
+    clear: both;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #a9a9a9;
+    float: left;
+    margin: 10px;
+    margin-top: 85px;
+}
+
+.circle-lowerright2 {
+    float: right;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #a9a9a9;
+    margin: 10px;
+    margin-top: 85px;
+}
+
+.member2-name {
+    text-align: center;
+    width: 120px;
+    float: left;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 25px 0px;
+}
+
+.member2 img{
+    float: left;
+    border-radius: 50%;
+    width: 85px;
+    height: 85px;
+    margin-left: 40px;
+}
+    
 }
 
 /*作品ページのCSS*/
