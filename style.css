@@ -503,6 +503,7 @@ footer {
 .member {
     background-color: rgba(241, 41, 161, 1);
     padding-bottom: 50px;
+    height: 2000px;
 }
 
 .member-title {
@@ -707,7 +708,59 @@ img[alt$="Github"] {
     background-color: rgba(0, 187, 249, 1);
 }
 
+.group-profile :hover img {
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+}
+
+.member_back {
+    color: white;
+    font-family: "Concert One";
+
+    position: absolute;
+    display: inline-block;
+    font-size: 170px;
+    transform: rotate(0deg);
+    top: 1850px;
+    right: 40px;
+    opacity: 20%;
+    font-weight: bold;
+
+}
+
+.member_back2 img {
+    position: absolute;
+    display: inline-block;
+    font-size: 170px;
+    top: 100px;
+    right: 20px;
+    opacity: 20%;
+    color: white;
+    font-weight: bold;
+    width: 300px;
+    height: 300px;
+
+}
+
+.member_back3 img {
+    position: absolute;
+    display: inline-block;
+    font-size: 170px;
+    top: 1300px;
+    left: 20px;
+    opacity: 20%;
+    color: white;
+    font-weight: bold;
+    width: 300px;
+    height: 300px;
+}
+
 @media (max-width: 720px) {
+
+    .member {
+        height: 3000px;
+    }
+
     .member1 {
         width: 450px;
         height: 130px;
@@ -768,6 +821,8 @@ img[alt$="Github"] {
         float: left;
         margin-top: 17px;
         margin-left: 5px;
+        overflow: hidden;
+        cursor: pointer;
     }
 
     .member2 {
@@ -850,6 +905,38 @@ img[alt$="Github"] {
         height: 85px;
         margin-left: 40px;
     }
+
+    .member_back {
+        opacity: 0%;
+    }
+
+
+    .member_back2 img {
+        position: absolute;
+        display: inline-block;
+        font-size: 170px;
+        top: 100px;
+        right: 20px;
+        opacity: 20%;
+        color: white;
+        font-weight: bold;
+        width: 200px;
+        height: 200px;
+
+    }
+
+    .member_back3 img {
+        position: absolute;
+        display: inline-block;
+        font-size: 170px;
+        top: 1330px;
+        left: 0px;
+        opacity: 20%;
+        color: white;
+        font-weight: bold;
+        width: 200px;
+        height: 200px;
+    }
 }
 
 /*作品ページのCSS*/
@@ -863,12 +950,14 @@ img[alt$="Github"] {
     font-weight: bold;
     margin: 0 auto;
 }
-.nenpyo a{
+
+.nenpyo a {
     color: #000000;
 }
-.nenpyo a:hover{
-  color: #ff0000;
-    
+
+.nenpyo a:hover {
+    color: #ff0000;
+
 }
 
 .block img {
