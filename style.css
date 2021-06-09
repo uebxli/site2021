@@ -3,356 +3,352 @@
 .back2,
 .back3,
 footer {
-    font-family: "Concert One", cursive;
+  font-family: "Concert One", cursive;
 }
 
 html {
-    font-family: "Noto Sans JP", sans-serif;
+  font-family: "Noto Sans JP", sans-serif;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
-
 
 .h-menu a:visited {
-    color: #333;
+  color: #333;
 }
 
-
-
 .h-menu a:hover {
-    color: crimson;
+  color: crimson;
 }
 
 header {
-    z-index: 1000;
-    display: flex;
-    align-items: center;
-    width: 100%;
-    height: 70px;
-    position: fixed;
-    background-color: white;
-    font-family: "Concert One", cursive;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 70px;
+  position: fixed;
+  background-color: white;
+  font-family: "Concert One", cursive;
 }
 
 nav ul {
-    display: flex;
+  display: flex;
 }
 
 nav {
-    margin-left: auto;
+  margin-left: auto;
 }
 
 nav ul li {
-    padding-right: 60px;
+  padding-right: 60px;
 }
 
 .h-title {
-    color: #333;
-    font-size: 40px;
-    padding-left: 60px;
+  color: #333;
+  font-size: 40px;
+  padding-left: 60px;
 }
 
 .h-menu {
-    font-size: 24px;
-    font-weight: 500;
+  font-size: 24px;
+  font-weight: 500;
 }
 
 .top-container {
-    background-color: rgba(0, 187, 249, 1);
-    text-align: center;
+  background-color: rgba(0, 187, 249, 1);
+  text-align: center;
 }
 
 .top-image {
-    box-shadow: yellow 15px 15px;
-    width: 65%;
-    height: auto;
-    margin-top: 100px;
-    margin-bottom: 50px;
+  box-shadow: yellow 15px 15px;
+  width: 65%;
+  height: auto;
+  margin-top: 100px;
+  margin-bottom: 50px;
 }
 
 .about {
-    padding-top: 180px;
-    position: relative;
-    background-color: rgba(241, 41, 161, 1);
-    height: 500px;
+  padding-top: 180px;
+  position: relative;
+  background-color: rgba(241, 41, 161, 1);
+  height: 500px;
 }
 
 .title {
-    font-size: 40px;
-    text-align: center;
-    font-weight: bold;
-    margin-bottom: 50px;
+  font-size: 40px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 50px;
 }
 
 .text1 {
-    color: white;
-    font-size: 32px;
-    text-align: center;
-    z-index: 100;
-    margin: 110px 100px;
-    line-height: 1.5;
+  color: white;
+  font-size: 32px;
+  text-align: center;
+  z-index: 100;
+  margin: 110px 100px;
+  line-height: 1.5;
 }
 
 .front {
-    position: absolute;
-    z-index: 20;
+  position: absolute;
+  z-index: 20;
 }
 
 .back {
-    position: absolute;
-    display: inline-block;
-    font-size: 170px;
-    transform: rotate(90deg);
-    top: 295px;
-    left: 0px;
-    opacity: 20%;
-    color: white;
-    font-weight: bold;
-    z-index: 10;
+  position: absolute;
+  display: inline-block;
+  font-size: 170px;
+  transform: rotate(90deg);
+  top: 295px;
+  left: 0px;
+  opacity: 20%;
+  color: white;
+  font-weight: bold;
+  z-index: 10;
 }
 
 .study {
-    background-color: rgba(0, 245, 212, 1);
-    height: 800px;
-    position: relative;
-    /* padding: 65px; */
-    padding: 75px 100px;
+  background-color: rgba(0, 245, 212, 1);
+  height: 800px;
+  position: relative;
+  /* padding: 65px; */
+  padding: 75px 100px;
 }
 
 .studyFront {
-    position: relative;
-    z-index: 20;
-    margin-top: 50px;
+  position: relative;
+  z-index: 20;
+  margin-top: 50px;
 }
 
 .study-contents {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 50px;
-    line-height: 1.5;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+  line-height: 1.5;
 }
 
 .container {
-    margin: 0 auto;
+  margin: 0 auto;
 }
 
 .title2 {
-    text-align: center;
-    font-size: 35px;
-    margin: 20px auto;
-    font-weight: bold;
+  text-align: center;
+  font-size: 35px;
+  margin: 20px auto;
+  font-weight: bold;
 }
 
 .text-web {
-    font-size: 24px;
-    text-align: center;
-    margin-left: 40px;
+  font-size: 24px;
+  text-align: center;
+  margin-left: 40px;
 }
 
 .text-art {
-    font-size: 24px;
-    text-align: center;
-    margin-right: 40px;
+  font-size: 24px;
+  text-align: center;
+  margin-right: 40px;
 }
 
 .study-discription {
-    width: 550px;
-    text-align: center;
-    margin-top: 50px;
+  width: 550px;
+  text-align: center;
+  margin-top: 50px;
 }
 
 .study-pic {
-    box-shadow: rgba(138, 138, 138, 0.411) 5px 5px;
-    width: 550px;
-    height: 350px;
-    object-fit: cover;
-    border-radius: 5%;
+  box-shadow: rgba(138, 138, 138, 0.411) 5px 5px;
+  width: 550px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 5%;
 }
 
 .back2 {
-    position: absolute;
-    display: block;
-    font-size: 170px;
-    top: 30px;
-    left: 30px;
-    opacity: 40%;
-    color: white;
-    font-weight: bold;
-    z-index: 10;
+  position: absolute;
+  display: block;
+  font-size: 170px;
+  top: 30px;
+  left: 30px;
+  opacity: 40%;
+  color: white;
+  font-weight: bold;
+  z-index: 10;
 }
 
 .back3 {
-    position: absolute;
-    display: block;
-    font-size: 170px;
-    top: 770px;
-    right: 80px;
-    opacity: 40%;
-    color: white;
-    font-weight: bold;
-    z-index: 10;
+  position: absolute;
+  display: block;
+  font-size: 170px;
+  top: 770px;
+  right: 80px;
+  opacity: 40%;
+  color: white;
+  font-weight: bold;
+  z-index: 10;
 }
 
 h1 span {
-    position: relative;
-    background: linear-gradient(transparent 60%, rgba(0, 70, 249, 0.8) 60%);
+  position: relative;
+  background: linear-gradient(transparent 60%, rgba(0, 70, 249, 0.8) 60%);
 }
 
 .activity {
-    background-color: rgba(254, 228, 64, 1);
-    height: 950px;
-    padding-top: 150px;
-    padding-left: 70px;
-    padding-right: 70px;
+  background-color: rgba(254, 228, 64, 1);
+  height: 950px;
+  padding-top: 150px;
+  padding-left: 70px;
+  padding-right: 70px;
 }
 
 .activities {
-    background-color: white;
-    /* width: 80%; */
-    border-radius: 5%;
-    padding: 80px;
-    margin: 0 auto;
+  background-color: white;
+  /* width: 80%; */
+  border-radius: 5%;
+  padding: 80px;
+  margin: 0 auto;
 }
 
 .activity-title {
-    font-size: 32px;
-    font-weight: bold;
-    margin-bottom: 10px;
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 10px;
 }
 
 .text2 {
-    margin-top: 10px;
-    margin-bottom: 60px;
-    font-size: 24px;
-    line-height: 1.5;
+  margin-top: 10px;
+  margin-bottom: 60px;
+  font-size: 24px;
+  line-height: 1.5;
 }
 
 .advertise {
-    width: 100%;
-    height: 250px;
-    color: white;
-    font-size: 35px;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: rgba(0, 187, 249, 1);
+  width: 100%;
+  height: 250px;
+  color: white;
+  font-size: 35px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 187, 249, 1);
 }
 
 footer {
-    height: 100px;
-    font-size: 30px;
-    font-weight: bold;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  height: 100px;
+  font-size: 30px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 @media (max-width: 1024px) {
-    .back {
-        left: -120px;
-    }
+  .back {
+    left: -120px;
+  }
 
-    .text1 {
-        margin: 50px 100px;
-        text-align: left;
-    }
+  .text1 {
+    margin: 50px 100px;
+    text-align: left;
+  }
 
-    .study-pic {
-        width: 45%;
-        height: auto;
-        object-fit: contain;
-        box-shadow: none;
-        margin: 50px 20px;
-    }
+  .study-pic {
+    width: 45%;
+    height: auto;
+    object-fit: contain;
+    box-shadow: none;
+    margin: 50px 20px;
+  }
 
-    .study-discription {
-        margin: 0px;
-    }
+  .study-discription {
+    margin: 0px;
+  }
 
-    .title2 {
-        font-size: 1.8em;
-        text-align: center;
-    }
+  .title2 {
+    font-size: 1.8em;
+    text-align: center;
+  }
 
-    .text-web {
-        padding-left: 20px;
-    }
+  .text-web {
+    padding-left: 20px;
+  }
 
-    .back3 {
-        font-size: 160px;
-        right: 20px;
-    }
+  .back3 {
+    font-size: 160px;
+    right: 20px;
+  }
 
-    .text-web,
-    .text-art {
-        text-align: left;
-        width: 100%;
-        margin-left: 0px;
-    }
+  .text-web,
+  .text-art {
+    text-align: left;
+    width: 100%;
+    margin-left: 0px;
+  }
 
-    .activities {
-        height: 80%;
-        padding: 50px;
-        padding-top: 70px;
-    }
+  .activities {
+    height: 80%;
+    padding: 50px;
+    padding-top: 70px;
+  }
 }
 
 @media (max-width: 599px) {
+  .about,
+  .study,
+  .activity {
+    max-width: 100%;
+  }
 
-    .about,
-    .study,
-    .activity {
-        max-width: 100%;
-    }
+  body {
+    margin: 0;
+    padding: 0;
+  }
 
-    body {
-        margin: 0;
-        padding: 0;
-    }
+  .wrap {
+    overflow: hidden;
+  }
 
-    .wrap {
-        overflow: hidden;
-    }
+  header {
+    position: static;
+    width: 100%;
+    height: 50px;
+    padding: 0 15px;
+    /* justify-content: space-between; */
+    /* margin: 0 auto; */
+  }
 
-    header {
-        position: static;
-        width: 100%;
-        height: 50px;
-        padding: 0 15px;
-        /* justify-content: space-between; */
-        /* margin: 0 auto; */
-    }
+  /* 横幅あわない... */
 
-    /* 横幅あわない... */
+  .h-title {
+    font-size: 25px;
+    padding-left: 10px;
+  }
 
-    .h-title {
-        font-size: 25px;
-        padding-left: 10px;
-    }
+  .h-menu {
+    font-size: 15px;
+  }
 
-    .h-menu {
-        font-size: 15px;
-    }
+  ul {
+    /* padding-right: 15px; */
+  }
 
-    ul {
-        /* padding-right: 15px; */
-    }
+  nav ul li {
+    padding-right: 35px;
+  }
 
-    nav ul li {
-        padding-right: 35px;
-    }
+  .top-image {
+    margin-top: 20px;
+    margin-bottom: 35px;
+    margin-right: 25px;
+    /* margin: 20px; */
+  }
 
-    .top-image {
-        margin-top: 20px;
-        margin-bottom: 35px;
-        margin-right: 25px;
-        /* margin: 20px; */
-    }
-
-    /* .h-title {
+  /* .h-title {
     padding-left: 90px;
     font-size: 25px;
   }
@@ -365,160 +361,401 @@ footer {
     text-decoration: underline solid 3px rgba(88, 140, 189, 0.466);
   } */
 
-    .text1,
-    .text-web,
-    .text-art,
-    .text2 {
-        font-size: 16px;
-    }
+  .text1,
+  .text-web,
+  .text-art,
+  .text2 {
+    font-size: 16px;
+  }
 
-    .text-web {
-        width: 85%;
-    }
+  .text-web {
+    width: 85%;
+  }
 
-    .text1 {
-        margin: 0 15px;
-        text-align: center;
-    }
+  .text1 {
+    margin: 0 15px;
+    text-align: center;
+  }
 
-    .about {
-        padding: 0;
-        height: 300px;
-    }
+  .about {
+    padding: 0;
+    height: 300px;
+  }
 
-    .back {
-        font-size: 100px;
-        transform: rotate(0deg);
-        top: 200px;
-        right: 0px;
-        left: 90px;
-    }
+  .back {
+    font-size: 100px;
+    transform: rotate(0deg);
+    top: 200px;
+    right: 0px;
+    left: 90px;
+  }
 
-    .study {
-        margin: 0px;
-        padding: 0px;
-        padding-top: 50px;
-        height: 600px;
-    }
+  .study {
+    margin: 0px;
+    padding: 0px;
+    padding-top: 50px;
+    height: 600px;
+  }
 
-    .back2 {
-        font-size: 80px;
-        top: 200px;
-        left: 15px;
-    }
+  .back2 {
+    font-size: 80px;
+    top: 200px;
+    left: 15px;
+  }
 
-    .back3 {
-        font-size: 75px;
-        top: 480px;
-        right: 15px;
-        /* left: 50px; */
-    }
+  .back3 {
+    font-size: 75px;
+    top: 480px;
+    right: 15px;
+    /* left: 50px; */
+  }
 
-    .studyFront {
-        margin: 0;
-    }
+  .studyFront {
+    margin: 0;
+  }
 
-    .study-pic {
-        width: 150px;
-        height: 190px;
-        margin: 0 10px;
-        object-fit: contain;
-        box-shadow: none;
-    }
+  .study-pic {
+    width: 150px;
+    height: 190px;
+    margin: 0 10px;
+    object-fit: contain;
+    box-shadow: none;
+  }
 
-    .reverse {
-        flex-direction: row-reverse;
-    }
+  .reverse {
+    flex-direction: row-reverse;
+  }
 
-    .study-discription {
-        margin: 0;
-        width: 234px;
-    }
+  .study-discription {
+    margin: 0;
+    width: 234px;
+  }
 
-    .title2 {
-        margin-top: 0;
-    }
+  .title2 {
+    margin-top: 0;
+  }
 
-    .text-web {
-        text-align: left;
-        margin: 10px;
-    }
+  .text-web {
+    text-align: left;
+    margin: 10px;
+  }
 
-    .text-art {
-        text-align: left;
-        margin: 10px;
-    }
+  .text-art {
+    text-align: left;
+    margin: 10px;
+  }
 
-    .activities {
-        text-align: center;
-        background-color: rgba(254, 228, 64, 1);
-        width: 90%;
-        padding: 0;
-        padding-top: 30px;
-        padding-bottom: 30px;
-    }
+  .activities {
+    text-align: center;
+    background-color: rgba(254, 228, 64, 1);
+    width: 90%;
+    padding: 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
 
-    .title2,
-    .activity-title {
-        font-size: 20px;
-    }
+  .title2,
+  .activity-title {
+    font-size: 20px;
+  }
 
-    .container {
-        width: 100%;
-        height: 650px;
-    }
+  .container {
+    width: 100%;
+    height: 650px;
+  }
 
-    .activity {
-        margin: 0;
-        padding: 0;
-        height: auto;
-    }
+  .activity {
+    margin: 0;
+    padding: 0;
+    height: auto;
+  }
 
-    .title {
-        font-size: 24px;
-        padding-top: 50px;
-        margin-bottom: 25px;
-    }
+  .title {
+    font-size: 24px;
+    padding-top: 50px;
+    margin-bottom: 25px;
+  }
 
-    .text2 {
-        text-align: justify;
-        margin: 0 10px;
-        margin-bottom: 50px;
-    }
+  .text2 {
+    text-align: justify;
+    margin: 0 10px;
+    margin-bottom: 50px;
+  }
 
-    .advertise > p {
-        margin: 0 10px;
-        font-size: 18px;
-        font-weight: 500;
-    }
+  .advertise > p {
+    margin: 0 10px;
+    font-size: 18px;
+    font-weight: 500;
+  }
 
-    footer {
-        text-align: center;
-        font-size: 20px;
-    }
+  footer {
+    text-align: center;
+    font-size: 20px;
+  }
 }
 
 /*メンバー紹介ページのCSS*/
 
 .member {
-    background-color: rgba(241, 41, 161, 1);
-    padding-bottom: 50px;
-    height: 2000px;
+  background-color: rgba(241, 41, 161, 1);
+  padding-bottom: 50px;
+  height: 2000px;
 }
 
 .member-title {
-    color: white;
-    text-align: center;
-    padding-top: 100px;
-    padding-bottom: 50px;
-    /*  text-decoration: underline;*/
-    font-family: "Concert One";
-    font-size: 4em;
-    font-weight: bold;
+  color: white;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  /*  text-decoration: underline;*/
+  font-family: "Concert One";
+  font-size: 4em;
+  font-weight: bold;
 }
 
 .member1 {
-    width: 650px;
+  width: 650px;
+  height: 130px;
+  padding: 10px;
+  padding-bottom: 10px;
+  background-color: white;
+  margin: auto;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.circle-upperleft {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #a9a9a9;
+  float: right;
+}
+
+.circle-upperright {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #a9a9a9;
+}
+
+.circle-lowerleft {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #a9a9a9;
+  float: left;
+  margin-top: 100px;
+}
+
+.circle-lowerright {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #a9a9a9;
+  float: right;
+  margin-top: 100px;
+}
+
+.group-profile {
+  padding: 10px 5px;
+  border-right: solid 2px gray;
+  width: 160px;
+  height: 80px;
+  float: left;
+}
+
+.member1-name {
+  text-align: center;
+  width: 150px;
+  float: left;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.message {
+  width: 280px;
+  height: 75px;
+  float: left;
+  padding: 10px 20px;
+  padding-left: 25px;
+
+  font-size: 20px;
+}
+
+.member1 img[alt$="アイコン"] {
+  border-radius: 50%;
+  margin-top: 10px;
+  width: 85px;
+  height: 85px;
+  margin-left: 35px;
+  float: left;
+}
+
+img[alt$="Twitter"] {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  float: left;
+  margin-top: 15px;
+  margin-left: 30px;
+}
+
+img[alt$="Github"] {
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  float: left;
+  margin-top: 17px;
+  margin-left: 5px;
+}
+
+.member2 {
+  width: 670px;
+  height: 155px;
+  padding-bottom: 10px;
+  margin: auto;
+}
+
+.member2-left {
+  width: 325px;
+  height: 145px;
+  background-color: white;
+  border-radius: 10px;
+  float: left;
+  margin-right: 10px;
+}
+
+.member2-right {
+  width: 325px;
+  height: 145px;
+  background-color: white;
+  border-radius: 10px;
+  float: left;
+  margin-left: 10px;
+}
+
+.circle-upperleft2 {
+  clear: both;
+  float: left;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #a9a9a9;
+  margin: 10px;
+}
+
+.circle-upperright2 {
+  width: 15px;
+  height: 15px;
+  float: right;
+  border-radius: 50%;
+  background-color: #a9a9a9;
+  margin: 10px;
+}
+
+.circle-lowerleft2 {
+  clear: both;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #a9a9a9;
+  float: left;
+  margin: 10px;
+  margin-top: 85px;
+}
+
+.circle-lowerright2 {
+  float: right;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #a9a9a9;
+  margin: 10px;
+  margin-top: 85px;
+}
+
+.member2-name {
+  text-align: center;
+  width: 120px;
+  float: left;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 25px 10px;
+}
+
+.member2 img {
+  float: left;
+  border-radius: 50%;
+  width: 85px;
+  height: 85px;
+  margin-left: 15px;
+}
+
+.footer-member {
+  clear: both;
+  height: 100px;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 187, 249, 1);
+}
+
+.group-profile :hover img {
+  transform: scale(1.1);
+  transition-duration: 0.5s;
+}
+
+.member_back {
+  color: white;
+  font-family: "Concert One";
+
+  position: absolute;
+  display: inline-block;
+  font-size: 170px;
+  transform: rotate(0deg);
+  top: 1850px;
+  right: 40px;
+  opacity: 20%;
+  font-weight: bold;
+}
+
+.member_back2 img {
+  position: absolute;
+  display: inline-block;
+  font-size: 170px;
+  top: 100px;
+  right: 20px;
+  opacity: 20%;
+  color: white;
+  font-weight: bold;
+  width: 300px;
+  height: 300px;
+}
+
+.member_back3 img {
+  position: absolute;
+  display: inline-block;
+  font-size: 170px;
+  top: 1300px;
+  left: 20px;
+  opacity: 20%;
+  color: white;
+  font-weight: bold;
+  width: 300px;
+  height: 300px;
+}
+
+@media (max-width: 720px) {
+  .member {
+    height: 3000px;
+  }
+
+  .member1 {
+    width: 450px;
     height: 130px;
     padding: 10px;
     padding-bottom: 10px;
@@ -526,120 +763,86 @@ footer {
     margin: auto;
     border-radius: 10px;
     margin-bottom: 10px;
-}
+  }
 
-.circle-upperleft {
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
-    background-color: #a9a9a9;
-    float: right;
-}
-
-.circle-upperright {
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
-    background-color: #a9a9a9;
-}
-
-.circle-lowerleft {
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
-    background-color: #a9a9a9;
-    float: left;
-    margin-top: 100px;
-}
-
-.circle-lowerright {
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
-    background-color: #a9a9a9;
-    float: right;
-    margin-top: 100px;
-}
-
-.group-profile {
-    padding: 10px 5px;
+  .group-profile {
     border-right: solid 2px gray;
-    width: 160px;
+    width: 120px;
     height: 80px;
     float: left;
-}
+    padding: 20px 10px 10px 0px;
+  }
 
-.member1-name {
+  .member1-name {
     text-align: center;
-    width: 150px;
+    width: 120px;
     float: left;
-    font-size: 30px;
+    font-size: 24px;
     font-weight: bold;
-}
+  }
 
-.message {
-    width: 280px;
-    height: 75px;
+  .message {
+    width: 170px;
+    height: 100px;
+    padding: 5px 10px 10px 10px;
     float: left;
-    padding: 10px 20px;
-    padding-left: 25px;
+    font-size: 18px;
+  }
 
-    font-size: 20px;
-}
-
-.member1 img[alt$="アイコン"] {
+  .member1 img[alt$="アイコン"] {
     border-radius: 50%;
     margin-top: 10px;
     width: 85px;
     height: 85px;
-    margin-left: 35px;
+    margin: 10px 8px 0px 5px;
     float: left;
-}
+  }
 
-img[alt$="Twitter"] {
+  img[alt$="Twitter"] {
     border-radius: 50%;
     width: 40px;
     height: 40px;
     float: left;
     margin-top: 15px;
-    margin-left: 30px;
-}
+    margin-left: 18px;
+  }
 
-img[alt$="Github"] {
+  img[alt$="Github"] {
     border-radius: 50%;
     width: 35px;
     height: 35px;
     float: left;
     margin-top: 17px;
     margin-left: 5px;
-}
+    overflow: hidden;
+    cursor: pointer;
+  }
 
-.member2 {
-    width: 670px;
-    height: 155px;
-    padding-bottom: 10px;
+  .member2 {
+    width: 350px;
+    height: 330px;
     margin: auto;
-}
+  }
 
-.member2-left {
-    width: 325px;
+  .member2-left {
+    width: 350px;
     height: 145px;
     background-color: white;
     border-radius: 10px;
-    float: left;
-    margin-right: 10px;
-}
+    margin: auto;
+    margin-bottom: 25px;
+  }
 
-.member2-right {
-    width: 325px;
+  .member2-right {
+    width: 350px;
     height: 145px;
     background-color: white;
     border-radius: 10px;
-    float: left;
-    margin-left: 10px;
-}
+    margin: auto;
+    margin-bottom: 25px;
+  }
 
-.circle-upperleft2 {
+  .circle-upperleft2 {
     clear: both;
     float: left;
     width: 15px;
@@ -647,18 +850,18 @@ img[alt$="Github"] {
     border-radius: 50%;
     background-color: #a9a9a9;
     margin: 10px;
-}
+  }
 
-.circle-upperright2 {
+  .circle-upperright2 {
     width: 15px;
     height: 15px;
     float: right;
     border-radius: 50%;
     background-color: #a9a9a9;
     margin: 10px;
-}
+  }
 
-.circle-lowerleft2 {
+  .circle-lowerleft2 {
     clear: both;
     width: 15px;
     height: 15px;
@@ -667,9 +870,9 @@ img[alt$="Github"] {
     float: left;
     margin: 10px;
     margin-top: 85px;
-}
+  }
 
-.circle-lowerright2 {
+  .circle-lowerright2 {
     float: right;
     width: 15px;
     height: 15px;
@@ -677,58 +880,30 @@ img[alt$="Github"] {
     background-color: #a9a9a9;
     margin: 10px;
     margin-top: 85px;
-}
+  }
 
-.member2-name {
+  .member2-name {
     text-align: center;
     width: 120px;
     float: left;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bold;
-    padding: 25px 10px;
-}
+    padding: 25px 0px;
+  }
 
-.member2 img {
+  .member2 img {
     float: left;
     border-radius: 50%;
     width: 85px;
     height: 85px;
-    margin-left: 15px;
-}
+    margin-left: 40px;
+  }
 
-.footer-member {
-    clear: both;
-    height: 100px;
-    font-size: 30px;
-    font-weight: bold;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: rgba(0, 187, 249, 1);
-}
+  .member_back {
+    opacity: 0%;
+  }
 
-.group-profile :hover img {
-    transform: scale(1.1);
-    transition-duration: 0.5s;
-}
-
-.member_back {
-    color: white;
-    font-family: "Concert One";
-
-    position: absolute;
-    display: inline-block;
-    font-size: 170px;
-    transform: rotate(0deg);
-    top: 1850px;
-    right: 40px;
-    opacity: 20%;
-    font-weight: bold;
-
-}
-
-.member_back2 img {
+  .member_back2 img {
     position: absolute;
     display: inline-block;
     font-size: 170px;
@@ -737,269 +912,89 @@ img[alt$="Github"] {
     opacity: 20%;
     color: white;
     font-weight: bold;
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
+  }
 
-}
-
-.member_back3 img {
+  .member_back3 img {
     position: absolute;
     display: inline-block;
     font-size: 170px;
-    top: 1300px;
-    left: 20px;
+    top: 1330px;
+    left: 0px;
     opacity: 20%;
     color: white;
     font-weight: bold;
-    width: 300px;
-    height: 300px;
-}
-
-@media (max-width: 720px) {
-
-    .member {
-        height: 3000px;
-    }
-
-    .member1 {
-        width: 450px;
-        height: 130px;
-        padding: 10px;
-        padding-bottom: 10px;
-        background-color: white;
-        margin: auto;
-        border-radius: 10px;
-        margin-bottom: 10px;
-    }
-
-    .group-profile {
-        border-right: solid 2px gray;
-        width: 120px;
-        height: 80px;
-        float: left;
-        padding: 20px 10px 10px 0px;
-    }
-
-    .member1-name {
-        text-align: center;
-        width: 120px;
-        float: left;
-        font-size: 24px;
-        font-weight: bold;
-    }
-
-    .message {
-        width: 170px;
-        height: 100px;
-        padding: 5px 10px 10px 10px;
-        float: left;
-        font-size: 18px;
-    }
-
-    .member1 img[alt$="アイコン"] {
-        border-radius: 50%;
-        margin-top: 10px;
-        width: 85px;
-        height: 85px;
-        margin: 10px 8px 0px 5px;
-        float: left;
-    }
-
-    img[alt$="Twitter"] {
-        border-radius: 50%;
-        width: 40px;
-        height: 40px;
-        float: left;
-        margin-top: 15px;
-        margin-left: 18px;
-    }
-
-    img[alt$="Github"] {
-        border-radius: 50%;
-        width: 35px;
-        height: 35px;
-        float: left;
-        margin-top: 17px;
-        margin-left: 5px;
-        overflow: hidden;
-        cursor: pointer;
-    }
-
-    .member2 {
-        width: 350px;
-        height: 330px;
-        margin: auto;
-    }
-
-    .member2-left {
-        width: 350px;
-        height: 145px;
-        background-color: white;
-        border-radius: 10px;
-        margin: auto;
-        margin-bottom: 25px;
-    }
-
-    .member2-right {
-        width: 350px;
-        height: 145px;
-        background-color: white;
-        border-radius: 10px;
-        margin: auto;
-        margin-bottom: 25px;
-    }
-
-    .circle-upperleft2 {
-        clear: both;
-        float: left;
-        width: 15px;
-        height: 15px;
-        border-radius: 50%;
-        background-color: #a9a9a9;
-        margin: 10px;
-    }
-
-    .circle-upperright2 {
-        width: 15px;
-        height: 15px;
-        float: right;
-        border-radius: 50%;
-        background-color: #a9a9a9;
-        margin: 10px;
-    }
-
-    .circle-lowerleft2 {
-        clear: both;
-        width: 15px;
-        height: 15px;
-        border-radius: 50%;
-        background-color: #a9a9a9;
-        float: left;
-        margin: 10px;
-        margin-top: 85px;
-    }
-
-    .circle-lowerright2 {
-        float: right;
-        width: 15px;
-        height: 15px;
-        border-radius: 50%;
-        background-color: #a9a9a9;
-        margin: 10px;
-        margin-top: 85px;
-    }
-
-    .member2-name {
-        text-align: center;
-        width: 120px;
-        float: left;
-        font-size: 25px;
-        font-weight: bold;
-        padding: 25px 0px;
-    }
-
-    .member2 img {
-        float: left;
-        border-radius: 50%;
-        width: 85px;
-        height: 85px;
-        margin-left: 40px;
-    }
-
-    .member_back {
-        opacity: 0%;
-    }
-
-
-    .member_back2 img {
-        position: absolute;
-        display: inline-block;
-        font-size: 170px;
-        top: 100px;
-        right: 20px;
-        opacity: 20%;
-        color: white;
-        font-weight: bold;
-        width: 200px;
-        height: 200px;
-
-    }
-
-    .member_back3 img {
-        position: absolute;
-        display: inline-block;
-        font-size: 170px;
-        top: 1330px;
-        left: 0px;
-        opacity: 20%;
-        color: white;
-        font-weight: bold;
-        width: 200px;
-        height: 200px;
-    }
+    width: 200px;
+    height: 200px;
+  }
 }
 
 /*作品ページのCSS*/
 .sakuhin {
-    background-color: rgba(0, 245, 212, 1);
+  background-color: rgba(0, 245, 212, 1);
 }
 
 .nenpyo {
-    font-size: 30px;
-    width: 700px;
-    font-weight: bold;
-    margin: 0 auto;
+  font-size: 30px;
+  width: 700px;
+  font-weight: bold;
+  margin: 0 auto;
 }
 
 .nenpyo a {
-    color: #000000;
+  color: #000000;
 }
 
 .nenpyo a:hover {
-    color: #ff0000;
-
+  color: #ff0000;
 }
 
 .block img {
-    width: 500px;
-    margin-left: 130px;
-    margin-top: 20px;
+  width: 500px;
+  margin-left: 130px;
+  margin-top: 20px;
+}
+
+.block img:hover {
+  opacity: 0.8;
 }
 
 .block {
-    width: 800px;
-    height: 500px;
-    margin-bottom: 0;
+  width: 800px;
+  height: 500px;
+  margin-bottom: 0;
 }
 
 .border {
-    border-left: solid 1px;
-    margin-left: 15px;
+  border-left: solid 1px;
+  margin-left: 15px;
+  margin-top: 20px;
 }
 
 .balloon {
-    position: relative;
-    display: inline-block;
-    margin: 1.5em 0 1.5em 5em;
-    padding: 30px 15px;
-    min-width: 120px;
-    max-width: 100%;
-    font-size: 20px;
-    background: rgba(254, 228, 64, 1);
-    border-radius: 20px;
+  position: relative;
+  display: inline-block;
+  margin: 1.5em 0 1.5em 5em;
+  padding: 30px 15px;
+  min-width: 120px;
+  max-width: 100%;
+  font-size: 20px;
+  background: rgba(254, 228, 64, 1);
+  border-radius: 20px;
 }
 
 .balloon:before {
-    content: "";
-    position: absolute;
-    top: -30px;
-    left: 50%;
-    margin-left: -15px;
-    border: 15px solid transparent;
-    border-bottom: 15px solid rgba(254, 228, 64, 1);
+  content: "";
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  margin-left: -15px;
+  border: 15px solid transparent;
+  border-bottom: 15px solid rgba(254, 228, 64, 1);
 }
 
 .balloon p {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
