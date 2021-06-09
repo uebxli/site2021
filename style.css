@@ -998,3 +998,29 @@ img[alt$="Github"] {
   margin: 0;
   padding: 0;
 }
+
+@media (max-width: 720px) {
+  .border {
+    margin-left: 50px;
+  }
+
+  .border p {
+    font-size: 20px;
+  }
+
+  .balloon p {
+    font-size: 13px;
+  }
+
+  .year {
+    font-size: 25px;
+    margin-left: 35px;
+  }
+
+  .balloon {
+  }
+
+  .border img {
+    width: 300px;
+  }
+}
