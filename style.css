@@ -577,7 +577,7 @@ footer {
   width: 280px;
   height: 75px;
   float: left;
-  padding: 10px 20px;
+  padding: 3px 20px;
   padding-left: 25px;
 
   font-size: 20px;
@@ -736,19 +736,6 @@ img[alt$="Github"] {
   height: 300px;
 }
 
-.member_back3 img {
-  position: absolute;
-  display: inline-block;
-  font-size: 170px;
-  top: 1300px;
-  left: 20px;
-  opacity: 20%;
-  color: white;
-  font-weight: bold;
-  width: 300px;
-  height: 300px;
-}
-
 @media (max-width: 720px) {
   .member {
     height: 3000px;
@@ -784,9 +771,9 @@ img[alt$="Github"] {
   .message {
     width: 170px;
     height: 100px;
-    padding: 5px 10px 10px 10px;
+    padding: 0px 10px 10px 10px;
     float: left;
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .member1 img[alt$="アイコン"] {
@@ -819,9 +806,11 @@ img[alt$="Github"] {
   }
 
   .member2 {
+    position: relative;
     width: 350px;
     height: 330px;
     margin: auto;
+    z-index: 1;
   }
 
   .member2-left {
@@ -909,19 +898,6 @@ img[alt$="Github"] {
     font-size: 170px;
     top: 100px;
     right: 20px;
-    opacity: 20%;
-    color: white;
-    font-weight: bold;
-    width: 200px;
-    height: 200px;
-  }
-
-  .member_back3 img {
-    position: absolute;
-    display: inline-block;
-    font-size: 170px;
-    top: 1330px;
-    left: 0px;
     opacity: 20%;
     color: white;
     font-weight: bold;
