@@ -975,17 +975,18 @@ img[alt$="Github"] {
   padding: 0;
 }
 
-@media (max-width: 720px) {
+@media (max-width: 599px) {
   .border {
     margin-left: 50px;
+    /* width: 100%; */
   }
 
   .border p {
-    font-size: 20px;
+    font-size: 13px;
   }
 
   .balloon p {
-    font-size: 13px;
+    font-size: 10px;
   }
 
   .year {
@@ -994,9 +995,21 @@ img[alt$="Github"] {
   }
 
   .balloon {
+    margin-left: 15%;
+    width: 70%;
   }
 
   .border img {
-    width: 300px;
+    width: 80%;
+    margin-left: 15%;
+  }
+
+  .nenpyo,
+  .block {
+    width: 100%;
+  }
+
+  .block {
+    height: 350px;
   }
 }
