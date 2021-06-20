@@ -975,7 +975,7 @@ img[alt$="Github"] {
   padding: 0;
 }
 
-@media (max-width: 599px) {
+@media (max-width: 768px) {
   .border {
     margin-left: 50px;
     /* width: 100%; */
@@ -1010,6 +1010,8 @@ img[alt$="Github"] {
   }
 
   .block {
-    height: 350px;
+    /* height: 350px; */
+    width: 90%;
+    height: 50%;
   }
 }
