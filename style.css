@@ -12,6 +12,7 @@ html {
 
 a {
   text-decoration: none;
+  color: #333;
 }
 
 .h-menu a:visited {
@@ -317,7 +318,7 @@ footer {
     position: static;
     width: 100%;
     height: 50px;
-    padding: 0 15px;
+    padding: 0px;
     /* justify-content: space-between; */
     /* margin: 0 auto; */
   }
@@ -513,6 +514,7 @@ footer {
   font-weight: bold;
 }
 
+
 .member1 {
   width: 650px;
   height: 130px;
@@ -572,6 +574,8 @@ footer {
   font-size: 30px;
   font-weight: bold;
 }
+
+
 
 .message {
   width: 280px;
@@ -820,6 +824,7 @@ img[alt$="Github"] {
     border-radius: 10px;
     margin: auto;
     margin-bottom: 25px;
+    float: none;
   }
 
   .member2-right {
@@ -829,6 +834,7 @@ img[alt$="Github"] {
     border-radius: 10px;
     margin: auto;
     margin-bottom: 25px;
+    float: none;
   }
 
   .circle-upperleft2 {
@@ -906,6 +912,176 @@ img[alt$="Github"] {
   }
 }
 
+@media (max-width: 500px) {
+  .member {
+    height: 3000px;
+  }
+
+  .member1 {
+    width: 300px;
+    height: 130px;
+    padding: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+    margin: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+
+  .group-profile {
+    border-right: solid 2px gray;
+    width: 80px;
+    height: 80px;
+    float: left;
+    padding: 20px 0px 10px 0px;
+  }
+
+  .member1-name {
+    text-align: center;
+    width: 75px;
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .message {
+    width: 90px;
+    height: 100px;
+    padding: 0px 10px 10px 10px;
+    float: left;
+    font-size: 0.8em;
+  }
+
+  .member1 img[alt$="アイコン"] {
+    border-radius: 50%;
+    margin-top: 10px;
+    width: 60px;
+    height: 60px;
+    margin: 20px 8px 0px 0px;
+    float: left;
+  }
+
+  img[alt$="Twitter"] {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin-top: 16px;
+    margin-left: 5px;
+  }
+
+  img[alt$="Github"] {
+    border-radius: 50%;
+    width: 28px;
+    height: 28px;
+    float: left;
+    margin-top: 17px;
+    margin-left: 5px;
+    overflow: hidden;
+    cursor: pointer;
+  }
+
+  .member2 {  
+    width: 350px;
+    height: 330px;
+    margin: auto;
+    z-index: 1;
+  }
+
+  .member2-left {
+    width: 250px;
+    height: 145px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+  }
+
+  .member2-right {
+    width: 250px;
+    height: 145px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+  }
+
+  .circle-upperleft2 {
+    clear: both;
+    float: left;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #a9a9a9;
+    margin: 10px;
+  }
+
+  .circle-upperright2 {
+    width: 15px;
+    height: 15px;
+    float: right;
+    border-radius: 50%;
+    background-color: #a9a9a9;
+    margin: 10px;
+  }
+
+  .circle-lowerleft2 {
+    clear: both;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #a9a9a9;
+    float: left;
+    margin: 10px;
+    margin-top: 85px;
+  }
+
+  .circle-lowerright2 {
+    float: right;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #a9a9a9;
+    margin: 10px;
+    margin-top: 85px;
+  }
+
+  .member2-name {
+    text-align: center;
+    width: 80px;
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 25px 0px;
+  }
+
+  .member2 img {
+    float: left;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+
+  .member_back {
+    opacity: 0%;
+  }
+
+  .member_back2 img {
+    position: absolute;
+    display: inline-block;
+    font-size: 170px;
+    top: 100px;
+    right: 20px;
+    opacity: 20%;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    height: 200px;
+  }
+}
+
 /*作品ページのCSS*/
 .sakuhin {
   background-color: rgba(0, 245, 212, 1);
@@ -919,6 +1095,7 @@ img[alt$="Github"] {
 }
 
 .nenpyo a {
+  font-size: 0.8em;
   color: #000000;
 }
 
@@ -937,7 +1114,7 @@ img[alt$="Github"] {
 }
 
 .block {
-  width: 800px;
+  width: 100%;
   height: 500px;
   margin-bottom: 0;
 }
@@ -973,6 +1150,11 @@ img[alt$="Github"] {
 .balloon p {
   margin: 0;
   padding: 0;
+}
+
+.year{
+  width:200px;
+  margin: 0;
 }
 
 @media (max-width: 768px) {
@@ -1014,4 +1196,9 @@ img[alt$="Github"] {
     width: 90%;
     height: 50%;
   }
+  .nenpyo a {
+    font-size: 1.2em;
+    color: #000000;
+  }
+
 }
